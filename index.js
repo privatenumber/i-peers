@@ -1,3 +1,5 @@
-const package = require('./package.json');
+#!/usr/bin/env node
+
+var package = require('./package.json');
 
 console.log(package);
