@@ -1,0 +1,19 @@
+{
+  "name": "install-peerdeps",
+  "version": "1.0.0",
+  "description": "Installs peer deps",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirokiosame/install-peerdeps.git"
+  },
+  "author": "Hiroki Osame",
+  "license": "MIT",
+  "bin": {
+    "install-peerdeps": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/hirokiosame/install-peerdeps/issues"
+  },
+  "homepage": "https://github.com/hirokiosame/install-peerdeps#readme"
+}
