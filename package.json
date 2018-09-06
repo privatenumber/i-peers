@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hirokiosame/install-peerdeps/issues"
   },
-  "homepage": "https://github.com/hirokiosame/install-peerdeps#readme"
+  "homepage": "https://github.com/hirokiosame/install-peerdeps#readme",
+  "dependencies": {
+    "npm": "^6.4.1"
+  }
 }
