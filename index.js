@@ -14,7 +14,8 @@ if (installList.length) {
 	console.log('Installing', installList);
 
 	// Lighter than installing npm as a dependency
-	var npm = spawn('npm', ['install', '--no-save'].concat(installList));
-	npm.stdout.pipe(process.stdout);
-	npm.stderr.pipe(process.stderr);
+	spawn('npm', ['install', '--no-save'].concat(installList), {
+		stdio: 'inherit',
+		shell: true
+	});
 }
