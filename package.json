@@ -1,19 +1,19 @@
 {
-  "name": "install-peerdeps",
+  "name": "i-peers",
   "version": "1.0.0",
-  "description": "Installs peer deps",
+  "description": "Installs peer dependencies",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hirokiosame/install-peerdeps.git"
+    "url": "git+https://github.com/hirokiosame/i-peers.git"
   },
   "author": "Hiroki Osame",
   "license": "MIT",
   "bin": {
-    "install-peerdeps": "./index.js"
+    "i-peers": "./index.js"
   },
   "bugs": {
-    "url": "https://github.com/hirokiosame/install-peerdeps/issues"
+    "url": "https://github.com/hirokiosame/i-peers/issues"
   },
-  "homepage": "https://github.com/hirokiosame/install-peerdeps#readme"
+  "homepage": "https://github.com/hirokiosame/i-peers#readme"
 }
