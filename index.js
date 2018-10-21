@@ -2,7 +2,14 @@
 
 var path = require('path');
 var package = require(path.resolve('./package.json'));
-var spawn = require('child_process').spawn;
+var spawnSync = require('child_process').spawnSync;
+
+if (process.argv.includes('-a')) {
+	spawnSync('npm', ['install'], {
+		stdio: 'inherit',
+		shell: true
+	});
+}
 
 var peerDependencies = package.peerDependencies || {};
 var installList = Object.keys(peerDependencies).map(function(key) {
@@ -14,7 +21,7 @@ if (installList.length) {
 	console.log('Installing', installList);
 
 	// Lighter than installing npm as a dependency
-	spawn('npm', ['install', '--no-save'].concat(installList), {
+	spawnSync('npm', ['install', '--no-save'].concat(installList), {
 		stdio: 'inherit',
 		shell: true
 	});
