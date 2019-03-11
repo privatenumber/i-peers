@@ -8,3 +8,4 @@ Installs peer deps: `npx i-peers`
 
 ### Options
 - `-a` Install all dependencies (Does `npm install` before installing the peer dependencies)
+  - `-a ci` Installs all dependencies with `npm ci`
