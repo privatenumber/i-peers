@@ -2,18 +2,20 @@
   "name": "i-peers",
   "version": "1.1.0",
   "description": "Installs peer dependencies",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hirokiosame/i-peers.git"
-  },
-  "author": "Hiroki Osame",
+  "keywords": [
+    "npm",
+    "npx",
+    "install",
+    "peer dependencies"
+  ],
   "license": "MIT",
+  "repository": "privatenumber/i-peers",
+  "funding": "https://github.com/privatenumber/i-peers?sponsor=1",
+  "author": {
+    "name": "Hiroki Osame",
+    "email": "hiroki.osame@gmail.com"
+  },
   "bin": {
     "i-peers": "./index.js"
-  },
-  "bugs": {
-    "url": "https://github.com/hirokiosame/i-peers/issues"
-  },
-  "homepage": "https://github.com/hirokiosame/i-peers#readme"
+  }
 }
