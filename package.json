@@ -6,7 +6,8 @@
     "npm",
     "npx",
     "install",
-    "peer dependencies"
+    "peer dependencies",
+    "npm-install-peers"
   ],
   "license": "MIT",
   "repository": "privatenumber/i-peers",
