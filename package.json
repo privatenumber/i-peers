@@ -1,7 +1,7 @@
 {
   "name": "i-peers",
   "version": "1.1.0",
-  "description": "Installs peer dependencies",
+  "description": "⚡️ Instantly install peer-dependencies: npx i-peers",
   "keywords": [
     "npm",
     "npx",
@@ -16,7 +16,16 @@
     "name": "Hiroki Osame",
     "email": "hiroki.osame@gmail.com"
   },
+  "files": [
+    "dist"
+  ],
   "bin": {
-    "i-peers": "./index.js"
+    "i-peers": "cli.js"
+  },
+  "scripts": {
+    "build": "mkdir -p dist; terser src/i-peers.js -o dist/i-peers.js"
+  },
+  "devDependencies": {
+    "terser": "^5.3.5"
   }
 }
