@@ -1,6 +1,8 @@
 # i-peers [![Latest version](https://badgen.net/npm/v/i-peers)](https://npm.im/i-peers) [![Monthly downloads](https://badgen.net/npm/dm/i-peers)](https://npm.im/i-peers) [![Install size](https://packagephobia.now.sh/badge?p=i-peers)](https://packagephobia.now.sh/result?p=i-peers)
 
-Zero-dependency CLI to install your peer-dependencies. Just run it in your project directory:
+Zero-dependency CLI to install your peer-dependencies.
+
+👉 Run it in your project directory:
 
 ```sh
 npx i-peers
