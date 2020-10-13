@@ -26,4 +26,4 @@ In rare instances where you have peer-dependencies that you can't declare as dev
 They accomplish the same task, but `i-peers` is dramatically lighter, and therefore, faster.
 
 
-The latest version of `npm-install-peers` [![npm-install-peers install size](https://packagephobia.now.sh/badge?p=npm-install-peers)](https://packagephobia.now.sh/result?p=npm-install-peers) vs `i-peers` [![i-peers install size](https://packagephobia.now.sh/badge?p=i-peers)](https://packagephobia.now.sh/result?p=i-peers)
+The latest version of `npm-install-peers` <img align="center" src="https://packagephobia.now.sh/badge?p=npm-install-peers"> vs `i-peers` <img align="center" src="https://packagephobia.now.sh/badge?p=i-peers">
