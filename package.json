@@ -17,16 +17,9 @@
     "email": "hiroki.osame@gmail.com"
   },
   "files": [
-    "dist"
+    "i-peers.js"
   ],
   "bin": {
-    "i-peers": "cli.js"
-  },
-  "scripts": {
-    "build": "mkdir -p dist; terser src/i-peers.js -o dist/i-peers.js",
-    "prepublishOnly": "npm run build"
-  },
-  "devDependencies": {
-    "terser": "^5.3.5"
+    "i-peers": "i-peers.js"
   }
 }

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var path = require('path');
 var pkg = require(path.resolve('./package.json'));
 var spawnSync = require('child_process').spawnSync;
